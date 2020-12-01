@@ -46,11 +46,11 @@ public class ReadFile implements FileInterface {
         while (scanner.hasNextLine()) {
             String nextLine = scanner.nextLine();
             logger.info(nextLine);
-            try {
-                logger.info(LocalTime.parse(nextLine).toString());
-            } catch (IllegalArgumentException ignored) {
+//            try {
+//                logger.info(LocalTime.parse(nextLine).toString());
+//            } catch (IllegalArgumentException ignored) {
 
-            }
+//            }
 
 //            org.joda.time.LocalTime localTime1 = new org.joda.time.LocalTime();
 //            LocalTime.parse(nextLine).format(DateTimeFormatter.ofPattern("HH:mm"));
