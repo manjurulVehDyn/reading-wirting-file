@@ -22,8 +22,8 @@
 # idea
 .idea
 target
-mvnw*
-read-write-file.iml
+#mvnw*
+#read-write-file.iml
 
 # input folder
 
