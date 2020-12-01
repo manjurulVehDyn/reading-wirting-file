@@ -20,7 +20,7 @@
 *.rar
 
 # idea
-.idea
+#.idea
 target
 #mvnw*
 #read-write-file.iml
